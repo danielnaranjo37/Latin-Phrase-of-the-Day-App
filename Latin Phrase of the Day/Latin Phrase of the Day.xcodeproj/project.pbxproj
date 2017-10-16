@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E824F5F1F8FCCBF00317445 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E824F5E1F8FCCBF00317445 /* AppDelegate.swift */; };
+		4E824F611F8FCCBF00317445 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E824F601F8FCCBF00317445 /* ViewController.swift */; };
+		4E824F641F8FCCBF00317445 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E824F621F8FCCBF00317445 /* Main.storyboard */; };
+		4E824F661F8FCCBF00317445 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E824F651F8FCCBF00317445 /* Assets.xcassets */; };
+		4E824F691F8FCCBF00317445 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E824F671F8FCCBF00317445 /* LaunchScreen.storyboard */; };
+		4E824F741F8FCCBF00317445 /* Latin_Phrase_of_the_DayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E824F731F8FCCBF00317445 /* Latin_Phrase_of_the_DayTests.swift */; };
+		4E824F7F1F8FCCBF00317445 /* Latin_Phrase_of_the_DayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E824F7E1F8FCCBF00317445 /* Latin_Phrase_of_the_DayUITests.swift */; };
+		4E824F8D1F8FCE7A00317445 /* Phrase Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E824F8C1F8FCE7A00317445 /* Phrase Collection.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E824F701F8FCCBF00317445 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E824F531F8FCCBE00317445 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E824F5A1F8FCCBE00317445;
+			remoteInfo = "Latin Phrase of the Day";
+		};
+		4E824F7B1F8FCCBF00317445 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E824F531F8FCCBE00317445 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E824F5A1F8FCCBE00317445;
+			remoteInfo = "Latin Phrase of the Day";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4E824F5B1F8FCCBF00317445 /* Latin Phrase of the Day.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Latin Phrase of the Day.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E824F5E1F8FCCBF00317445 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4E824F601F8FCCBF00317445 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4E824F631F8FCCBF00317445 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4E824F651F8FCCBF00317445 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E824F681F8FCCBF00317445 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4E824F6A1F8FCCBF00317445 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E824F6F1F8FCCBF00317445 /* Latin Phrase of the DayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Latin Phrase of the DayTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E824F731F8FCCBF00317445 /* Latin_Phrase_of_the_DayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Latin_Phrase_of_the_DayTests.swift; sourceTree = "<group>"; };
+		4E824F751F8FCCBF00317445 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E824F7A1F8FCCBF00317445 /* Latin Phrase of the DayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Latin Phrase of the DayUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E824F7E1F8FCCBF00317445 /* Latin_Phrase_of_the_DayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Latin_Phrase_of_the_DayUITests.swift; sourceTree = "<group>"; };
+		4E824F801F8FCCBF00317445 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E824F8C1F8FCE7A00317445 /* Phrase Collection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Phrase Collection.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E824F581F8FCCBE00317445 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E824F6C1F8FCCBF00317445 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E824F771F8FCCBF00317445 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E824F521F8FCCBE00317445 = {
+			isa = PBXGroup;
+			children = (
+				4E824F5D1F8FCCBF00317445 /* Latin Phrase of the Day */,
+				4E824F721F8FCCBF00317445 /* Latin Phrase of the DayTests */,
+				4E824F7D1F8FCCBF00317445 /* Latin Phrase of the DayUITests */,
+				4E824F5C1F8FCCBF00317445 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E824F5C1F8FCCBF00317445 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E824F5B1F8FCCBF00317445 /* Latin Phrase of the Day.app */,
+				4E824F6F1F8FCCBF00317445 /* Latin Phrase of the DayTests.xctest */,
+				4E824F7A1F8FCCBF00317445 /* Latin Phrase of the DayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E824F5D1F8FCCBF00317445 /* Latin Phrase of the Day */ = {
+			isa = PBXGroup;
+			children = (
+				4E824F5E1F8FCCBF00317445 /* AppDelegate.swift */,
+				4E824F601F8FCCBF00317445 /* ViewController.swift */,
+				4E824F8C1F8FCE7A00317445 /* Phrase Collection.swift */,
+				4E824F621F8FCCBF00317445 /* Main.storyboard */,
+				4E824F651F8FCCBF00317445 /* Assets.xcassets */,
+				4E824F671F8FCCBF00317445 /* LaunchScreen.storyboard */,
+				4E824F6A1F8FCCBF00317445 /* Info.plist */,
+			);
+			path = "Latin Phrase of the Day";
+			sourceTree = "<group>";
+		};
+		4E824F721F8FCCBF00317445 /* Latin Phrase of the DayTests */ = {
+			isa = PBXGroup;
+			children = (
+				4E824F731F8FCCBF00317445 /* Latin_Phrase_of_the_DayTests.swift */,
+				4E824F751F8FCCBF00317445 /* Info.plist */,
+			);
+			path = "Latin Phrase of the DayTests";
+			sourceTree = "<group>";
+		};
+		4E824F7D1F8FCCBF00317445 /* Latin Phrase of the DayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4E824F7E1F8FCCBF00317445 /* Latin_Phrase_of_the_DayUITests.swift */,
+				4E824F801F8FCCBF00317445 /* Info.plist */,
+			);
+			path = "Latin Phrase of the DayUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E824F5A1F8FCCBE00317445 /* Latin Phrase of the Day */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E824F831F8FCCBF00317445 /* Build configuration list for PBXNativeTarget "Latin Phrase of the Day" */;
+			buildPhases = (
+				4E824F571F8FCCBE00317445 /* Sources */,
+				4E824F581F8FCCBE00317445 /* Frameworks */,
+				4E824F591F8FCCBE00317445 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Latin Phrase of the Day";
+			productName = "Latin Phrase of the Day";
+			productReference = 4E824F5B1F8FCCBF00317445 /* Latin Phrase of the Day.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4E824F6E1F8FCCBF00317445 /* Latin Phrase of the DayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E824F861F8FCCBF00317445 /* Build configuration list for PBXNativeTarget "Latin Phrase of the DayTests" */;
+			buildPhases = (
+				4E824F6B1F8FCCBF00317445 /* Sources */,
+				4E824F6C1F8FCCBF00317445 /* Frameworks */,
+				4E824F6D1F8FCCBF00317445 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E824F711F8FCCBF00317445 /* PBXTargetDependency */,
+			);
+			name = "Latin Phrase of the DayTests";
+			productName = "Latin Phrase of the DayTests";
+			productReference = 4E824F6F1F8FCCBF00317445 /* Latin Phrase of the DayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4E824F791F8FCCBF00317445 /* Latin Phrase of the DayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E824F891F8FCCBF00317445 /* Build configuration list for PBXNativeTarget "Latin Phrase of the DayUITests" */;
+			buildPhases = (
+				4E824F761F8FCCBF00317445 /* Sources */,
+				4E824F771F8FCCBF00317445 /* Frameworks */,
+				4E824F781F8FCCBF00317445 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E824F7C1F8FCCBF00317445 /* PBXTargetDependency */,
+			);
+			name = "Latin Phrase of the DayUITests";
+			productName = "Latin Phrase of the DayUITests";
+			productReference = 4E824F7A1F8FCCBF00317445 /* Latin Phrase of the DayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E824F531F8FCCBE00317445 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = District196;
+				TargetAttributes = {
+					4E824F5A1F8FCCBE00317445 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					4E824F6E1F8FCCBF00317445 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4E824F5A1F8FCCBE00317445;
+					};
+					4E824F791F8FCCBF00317445 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4E824F5A1F8FCCBE00317445;
+					};
+				};
+			};
+			buildConfigurationList = 4E824F561F8FCCBE00317445 /* Build configuration list for PBXProject "Latin Phrase of the Day" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4E824F521F8FCCBE00317445;
+			productRefGroup = 4E824F5C1F8FCCBF00317445 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E824F5A1F8FCCBE00317445 /* Latin Phrase of the Day */,
+				4E824F6E1F8FCCBF00317445 /* Latin Phrase of the DayTests */,
+				4E824F791F8FCCBF00317445 /* Latin Phrase of the DayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E824F591F8FCCBE00317445 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E824F691F8FCCBF00317445 /* LaunchScreen.storyboard in Resources */,
+				4E824F661F8FCCBF00317445 /* Assets.xcassets in Resources */,
+				4E824F641F8FCCBF00317445 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E824F6D1F8FCCBF00317445 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E824F781F8FCCBF00317445 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E824F571F8FCCBE00317445 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E824F8D1F8FCE7A00317445 /* Phrase Collection.swift in Sources */,
+				4E824F611F8FCCBF00317445 /* ViewController.swift in Sources */,
+				4E824F5F1F8FCCBF00317445 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E824F6B1F8FCCBF00317445 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E824F741F8FCCBF00317445 /* Latin_Phrase_of_the_DayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E824F761F8FCCBF00317445 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E824F7F1F8FCCBF00317445 /* Latin_Phrase_of_the_DayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E824F711F8FCCBF00317445 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E824F5A1F8FCCBE00317445 /* Latin Phrase of the Day */;
+			targetProxy = 4E824F701F8FCCBF00317445 /* PBXContainerItemProxy */;
+		};
+		4E824F7C1F8FCCBF00317445 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E824F5A1F8FCCBE00317445 /* Latin Phrase of the Day */;
+			targetProxy = 4E824F7B1F8FCCBF00317445 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4E824F621F8FCCBF00317445 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E824F631F8FCCBF00317445 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4E824F671F8FCCBF00317445 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E824F681F8FCCBF00317445 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E824F811F8FCCBF00317445 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4E824F821F8FCCBF00317445 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E824F841F8FCCBF00317445 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Latin Phrase of the Day/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.District196.Latin-Phrase-of-the-Day";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4E824F851F8FCCBF00317445 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Latin Phrase of the Day/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.District196.Latin-Phrase-of-the-Day";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4E824F871F8FCCBF00317445 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Latin Phrase of the DayTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.District196.Latin-Phrase-of-the-DayTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Latin Phrase of the Day.app/Latin Phrase of the Day";
+			};
+			name = Debug;
+		};
+		4E824F881F8FCCBF00317445 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Latin Phrase of the DayTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.District196.Latin-Phrase-of-the-DayTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Latin Phrase of the Day.app/Latin Phrase of the Day";
+			};
+			name = Release;
+		};
+		4E824F8A1F8FCCBF00317445 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Latin Phrase of the DayUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.District196.Latin-Phrase-of-the-DayUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Latin Phrase of the Day";
+			};
+			name = Debug;
+		};
+		4E824F8B1F8FCCBF00317445 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Latin Phrase of the DayUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.District196.Latin-Phrase-of-the-DayUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Latin Phrase of the Day";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E824F561F8FCCBE00317445 /* Build configuration list for PBXProject "Latin Phrase of the Day" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E824F811F8FCCBF00317445 /* Debug */,
+				4E824F821F8FCCBF00317445 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E824F831F8FCCBF00317445 /* Build configuration list for PBXNativeTarget "Latin Phrase of the Day" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E824F841F8FCCBF00317445 /* Debug */,
+				4E824F851F8FCCBF00317445 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4E824F861F8FCCBF00317445 /* Build configuration list for PBXNativeTarget "Latin Phrase of the DayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E824F871F8FCCBF00317445 /* Debug */,
+				4E824F881F8FCCBF00317445 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4E824F891F8FCCBF00317445 /* Build configuration list for PBXNativeTarget "Latin Phrase of the DayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E824F8A1F8FCCBF00317445 /* Debug */,
+				4E824F8B1F8FCCBF00317445 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E824F531F8FCCBE00317445 /* Project object */;
+}
